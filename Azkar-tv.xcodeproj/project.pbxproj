@@ -7,23 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D98ED07025FE37310040419D /* Azkar_tvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED06F25FE37310040419D /* Azkar_tvApp.swift */; };
-		D98ED07225FE37310040419D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED07125FE37310040419D /* ContentView.swift */; };
-		D98ED07425FE37380040419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98ED07325FE37380040419D /* Assets.xcassets */; };
+		D98ED07025FE37310040419D /* AzkarTvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED06F25FE37310040419D /* AzkarTvApp.swift */; };
 		D98ED07725FE37380040419D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98ED07625FE37380040419D /* Preview Assets.xcassets */; };
-		D98ED07925FE37380040419D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED07825FE37380040419D /* Persistence.swift */; };
-		D98ED07C25FE37380040419D /* Azkar_tv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D98ED07A25FE37380040419D /* Azkar_tv.xcdatamodeld */; };
+		D98ED14C25FE3BC80040419D /* FavoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED12325FE3BC70040419D /* FavoritesStore.swift */; };
+		D98ED14D25FE3BC80040419D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED12425FE3BC70040419D /* Loader.swift */; };
+		D98ED14E25FE3BC80040419D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED12525FE3BC70040419D /* Store.swift */; };
+		D98ED14F25FE3BC80040419D /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED12625FE3BC70040419D /* PersistenceController.swift */; };
+		D98ED15025FE3BC80040419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98ED12725FE3BC70040419D /* Assets.xcassets */; };
+		D98ED15225FE3BC80040419D /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED12A25FE3BC70040419D /* NavigationHeader.swift */; };
+		D98ED15325FE3BC80040419D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED12B25FE3BC70040419D /* BackButton.swift */; };
+		D98ED15425FE3BC80040419D /* FavoritesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D98ED12D25FE3BC80040419D /* FavoritesModel.xcdatamodeld */; };
+		D98ED15525FE3BC80040419D /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13025FE3BC80040419D /* 6.json */; };
+		D98ED15625FE3BC80040419D /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13125FE3BC80040419D /* 7.json */; };
+		D98ED15725FE3BC80040419D /* 0.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13225FE3BC80040419D /* 0.json */; };
+		D98ED15825FE3BC80040419D /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13325FE3BC80040419D /* 1.json */; };
+		D98ED15925FE3BC80040419D /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13425FE3BC80040419D /* 2.json */; };
+		D98ED15A25FE3BC80040419D /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13525FE3BC80040419D /* 3.json */; };
+		D98ED15B25FE3BC80040419D /* 8.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13625FE3BC80040419D /* 8.json */; };
+		D98ED15C25FE3BC80040419D /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13725FE3BC80040419D /* 4.json */; };
+		D98ED15D25FE3BC80040419D /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13825FE3BC80040419D /* 5.json */; };
+		D98ED15E25FE3BC90040419D /* Sections.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13925FE3BC80040419D /* Sections.json */; };
+		D98ED15F25FE3BC90040419D /* SubSections.json in Resources */ = {isa = PBXBuildFile; fileRef = D98ED13A25FE3BC80040419D /* SubSections.json */; };
+		D98ED16025FE3BC90040419D /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED13C25FE3BC80040419D /* Int.swift */; };
+		D98ED16125FE3BC90040419D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED13D25FE3BC80040419D /* Color.swift */; };
+		D98ED16225FE3BC90040419D /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED13F25FE3BC80040419D /* Language.swift */; };
+		D98ED16325FE3BC90040419D /* Zikr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14025FE3BC80040419D /* Zikr.swift */; };
+		D98ED16525FE3BC90040419D /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14225FE3BC80040419D /* Section.swift */; };
+		D98ED16625FE3BC90040419D /* SubSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14325FE3BC80040419D /* SubSection.swift */; };
+		D98ED16725FE3BC90040419D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14525FE3BC80040419D /* SettingsView.swift */; };
+		D98ED16825FE3BC90040419D /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14625FE3BC80040419D /* FavoriteView.swift */; };
+		D98ED16925FE3BC90040419D /* AzkarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14725FE3BC80040419D /* AzkarContentView.swift */; };
+		D98ED16A25FE3BC90040419D /* AzkarSubSectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14825FE3BC80040419D /* AzkarSubSectionsView.swift */; };
+		D98ED16B25FE3BC90040419D /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14925FE3BC80040419D /* DefaultView.swift */; };
+		D98ED16C25FE3BC90040419D /* AzkarSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED14A25FE3BC80040419D /* AzkarSectionView.swift */; };
+		D98ED17625FE3D010040419D /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98ED17525FE3D010040419D /* Launch.storyboard */; };
+		D9F764882600123B00DA31A9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F764872600123B00DA31A9 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D98ED06C25FE37310040419D /* Azkar-tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azkar-tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98ED06F25FE37310040419D /* Azkar_tvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azkar_tvApp.swift; sourceTree = "<group>"; };
-		D98ED07125FE37310040419D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D98ED07325FE37380040419D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98ED06F25FE37310040419D /* AzkarTvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarTvApp.swift; sourceTree = "<group>"; };
 		D98ED07625FE37380040419D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D98ED07825FE37380040419D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		D98ED07B25FE37380040419D /* Azkar_tv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Azkar_tv.xcdatamodel; sourceTree = "<group>"; };
 		D98ED07D25FE37380040419D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98ED12325FE3BC70040419D /* FavoritesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesStore.swift; sourceTree = "<group>"; };
+		D98ED12425FE3BC70040419D /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		D98ED12525FE3BC70040419D /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D98ED12625FE3BC70040419D /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D98ED12725FE3BC70040419D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98ED12A25FE3BC70040419D /* NavigationHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
+		D98ED12B25FE3BC70040419D /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		D98ED12E25FE3BC80040419D /* FavoritesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritesModel.xcdatamodel; sourceTree = "<group>"; };
+		D98ED13025FE3BC80040419D /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
+		D98ED13125FE3BC80040419D /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
+		D98ED13225FE3BC80040419D /* 0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 0.json; sourceTree = "<group>"; };
+		D98ED13325FE3BC80040419D /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		D98ED13425FE3BC80040419D /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		D98ED13525FE3BC80040419D /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		D98ED13625FE3BC80040419D /* 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 8.json; sourceTree = "<group>"; };
+		D98ED13725FE3BC80040419D /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		D98ED13825FE3BC80040419D /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
+		D98ED13925FE3BC80040419D /* Sections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sections.json; sourceTree = "<group>"; };
+		D98ED13A25FE3BC80040419D /* SubSections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SubSections.json; sourceTree = "<group>"; };
+		D98ED13C25FE3BC80040419D /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		D98ED13D25FE3BC80040419D /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D98ED13F25FE3BC80040419D /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		D98ED14025FE3BC80040419D /* Zikr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zikr.swift; sourceTree = "<group>"; };
+		D98ED14225FE3BC80040419D /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		D98ED14325FE3BC80040419D /* SubSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubSection.swift; sourceTree = "<group>"; };
+		D98ED14525FE3BC80040419D /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D98ED14625FE3BC80040419D /* FavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		D98ED14725FE3BC80040419D /* AzkarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarContentView.swift; sourceTree = "<group>"; };
+		D98ED14825FE3BC80040419D /* AzkarSubSectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarSubSectionsView.swift; sourceTree = "<group>"; };
+		D98ED14925FE3BC80040419D /* DefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
+		D98ED14A25FE3BC80040419D /* AzkarSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarSectionView.swift; sourceTree = "<group>"; };
+		D98ED17525FE3D010040419D /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		D9F764872600123B00DA31A9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +114,15 @@
 		D98ED06E25FE37310040419D /* Azkar-tv */ = {
 			isa = PBXGroup;
 			children = (
-				D98ED06F25FE37310040419D /* Azkar_tvApp.swift */,
-				D98ED07125FE37310040419D /* ContentView.swift */,
-				D98ED07325FE37380040419D /* Assets.xcassets */,
-				D98ED07825FE37380040419D /* Persistence.swift */,
 				D98ED07D25FE37380040419D /* Info.plist */,
-				D98ED07A25FE37380040419D /* Azkar_tv.xcdatamodeld */,
+				D98ED12725FE3BC70040419D /* Assets.xcassets */,
+				D98ED17525FE3D010040419D /* Launch.storyboard */,
+				D98ED12125FE3BC70040419D /* Core */,
+				D98ED14425FE3BC80040419D /* Views */,
+				D98ED12925FE3BC70040419D /* Custome Views */,
+				D98ED13E25FE3BC80040419D /* Models */,
+				D98ED13B25FE3BC80040419D /* Extensions */,
+				D98ED12C25FE3BC80040419D /* Date */,
 				D98ED07525FE37380040419D /* Preview Content */,
 			);
 			path = "Azkar-tv";
@@ -73,6 +134,88 @@
 				D98ED07625FE37380040419D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D98ED12125FE3BC70040419D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED06F25FE37310040419D /* AzkarTvApp.swift */,
+				D98ED12325FE3BC70040419D /* FavoritesStore.swift */,
+				D98ED12425FE3BC70040419D /* Loader.swift */,
+				D98ED12525FE3BC70040419D /* Store.swift */,
+				D98ED12625FE3BC70040419D /* PersistenceController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D98ED12925FE3BC70040419D /* Custome Views */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED12A25FE3BC70040419D /* NavigationHeader.swift */,
+				D98ED12B25FE3BC70040419D /* BackButton.swift */,
+			);
+			path = "Custome Views";
+			sourceTree = "<group>";
+		};
+		D98ED12C25FE3BC80040419D /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED12D25FE3BC80040419D /* FavoritesModel.xcdatamodeld */,
+				D98ED12F25FE3BC80040419D /* Content */,
+				D98ED13925FE3BC80040419D /* Sections.json */,
+				D98ED13A25FE3BC80040419D /* SubSections.json */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		D98ED12F25FE3BC80040419D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED13025FE3BC80040419D /* 6.json */,
+				D98ED13125FE3BC80040419D /* 7.json */,
+				D98ED13225FE3BC80040419D /* 0.json */,
+				D98ED13325FE3BC80040419D /* 1.json */,
+				D98ED13425FE3BC80040419D /* 2.json */,
+				D98ED13525FE3BC80040419D /* 3.json */,
+				D98ED13625FE3BC80040419D /* 8.json */,
+				D98ED13725FE3BC80040419D /* 4.json */,
+				D98ED13825FE3BC80040419D /* 5.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		D98ED13B25FE3BC80040419D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED13C25FE3BC80040419D /* Int.swift */,
+				D98ED13D25FE3BC80040419D /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D98ED13E25FE3BC80040419D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED13F25FE3BC80040419D /* Language.swift */,
+				D98ED14025FE3BC80040419D /* Zikr.swift */,
+				D98ED14225FE3BC80040419D /* Section.swift */,
+				D98ED14325FE3BC80040419D /* SubSection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D98ED14425FE3BC80040419D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED14525FE3BC80040419D /* SettingsView.swift */,
+				D98ED14625FE3BC80040419D /* FavoriteView.swift */,
+				D98ED14725FE3BC80040419D /* AzkarContentView.swift */,
+				D98ED14825FE3BC80040419D /* AzkarSubSectionsView.swift */,
+				D98ED14925FE3BC80040419D /* DefaultView.swift */,
+				D98ED14A25FE3BC80040419D /* AzkarSectionView.swift */,
+				D9F764872600123B00DA31A9 /* AboutView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +246,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Mohamed Shemy";
 				TargetAttributes = {
 					D98ED06B25FE37310040419D = {
 						CreatedOnToolsVersion = 12.4;
@@ -132,8 +276,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98ED15B25FE3BC80040419D /* 8.json in Resources */,
+				D98ED15C25FE3BC80040419D /* 4.json in Resources */,
+				D98ED15925FE3BC80040419D /* 2.json in Resources */,
+				D98ED15725FE3BC80040419D /* 0.json in Resources */,
+				D98ED15625FE3BC80040419D /* 7.json in Resources */,
+				D98ED15525FE3BC80040419D /* 6.json in Resources */,
+				D98ED15E25FE3BC90040419D /* Sections.json in Resources */,
+				D98ED15025FE3BC80040419D /* Assets.xcassets in Resources */,
+				D98ED15A25FE3BC80040419D /* 3.json in Resources */,
+				D98ED15F25FE3BC90040419D /* SubSections.json in Resources */,
+				D98ED15825FE3BC80040419D /* 1.json in Resources */,
+				D98ED17625FE3D010040419D /* Launch.storyboard in Resources */,
 				D98ED07725FE37380040419D /* Preview Assets.xcassets in Resources */,
-				D98ED07425FE37380040419D /* Assets.xcassets in Resources */,
+				D98ED15D25FE3BC80040419D /* 5.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,10 +300,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98ED07925FE37380040419D /* Persistence.swift in Sources */,
-				D98ED07225FE37310040419D /* ContentView.swift in Sources */,
-				D98ED07025FE37310040419D /* Azkar_tvApp.swift in Sources */,
-				D98ED07C25FE37380040419D /* Azkar_tv.xcdatamodeld in Sources */,
+				D98ED15225FE3BC80040419D /* NavigationHeader.swift in Sources */,
+				D9F764882600123B00DA31A9 /* AboutView.swift in Sources */,
+				D98ED16025FE3BC90040419D /* Int.swift in Sources */,
+				D98ED14F25FE3BC80040419D /* PersistenceController.swift in Sources */,
+				D98ED15325FE3BC80040419D /* BackButton.swift in Sources */,
+				D98ED16725FE3BC90040419D /* SettingsView.swift in Sources */,
+				D98ED16325FE3BC90040419D /* Zikr.swift in Sources */,
+				D98ED16625FE3BC90040419D /* SubSection.swift in Sources */,
+				D98ED16A25FE3BC90040419D /* AzkarSubSectionsView.swift in Sources */,
+				D98ED16225FE3BC90040419D /* Language.swift in Sources */,
+				D98ED16525FE3BC90040419D /* Section.swift in Sources */,
+				D98ED16925FE3BC90040419D /* AzkarContentView.swift in Sources */,
+				D98ED16C25FE3BC90040419D /* AzkarSectionView.swift in Sources */,
+				D98ED07025FE37310040419D /* AzkarTvApp.swift in Sources */,
+				D98ED14E25FE3BC80040419D /* Store.swift in Sources */,
+				D98ED14C25FE3BC80040419D /* FavoritesStore.swift in Sources */,
+				D98ED16125FE3BC90040419D /* Color.swift in Sources */,
+				D98ED16825FE3BC90040419D /* FavoriteView.swift in Sources */,
+				D98ED16B25FE3BC90040419D /* DefaultView.swift in Sources */,
+				D98ED14D25FE3BC80040419D /* Loader.swift in Sources */,
+				D98ED15425FE3BC80040419D /* FavoritesModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +446,7 @@
 		D98ED08125FE37380040419D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Azkar-tv/Preview Content\"";
@@ -284,7 +457,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shemy.Azkar-tv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.Azkar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -295,7 +468,7 @@
 		D98ED08225FE37380040419D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Azkar-tv/Preview Content\"";
@@ -306,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shemy.Azkar-tv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.Azkar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -338,13 +511,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D98ED07A25FE37380040419D /* Azkar_tv.xcdatamodeld */ = {
+		D98ED12D25FE3BC80040419D /* FavoritesModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D98ED07B25FE37380040419D /* Azkar_tv.xcdatamodel */,
+				D98ED12E25FE3BC80040419D /* FavoritesModel.xcdatamodel */,
 			);
-			currentVersion = D98ED07B25FE37380040419D /* Azkar_tv.xcdatamodel */;
-			path = Azkar_tv.xcdatamodeld;
+			currentVersion = D98ED12E25FE3BC80040419D /* FavoritesModel.xcdatamodel */;
+			path = FavoritesModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="17701" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eLx-L6-w4f">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="b6O-3z-vlv">
+            <objects>
+                <viewController id="eLx-L6-w4f" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vYH-mx-2Dx"/>
+                        <viewControllerLayoutGuide type="bottom" id="hGs-vX-1VA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xwo-hq-s0S">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backrgound" translatesAutoresizingMaskIntoConstraints="NO" id="thG-Bl-45V">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="oT8-Sa-63i">
+                                <rect key="frame" x="832" y="412" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="O5r-Nz-pVs"/>
+                                    <constraint firstAttribute="width" constant="256" id="uAn-cX-hea"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="o0h-0S-X71"/>
+                        <constraints>
+                            <constraint firstItem="thG-Bl-45V" firstAttribute="leading" secondItem="Xwo-hq-s0S" secondAttribute="leading" id="0Lh-Yc-CX1"/>
+                            <constraint firstItem="oT8-Sa-63i" firstAttribute="centerY" secondItem="Xwo-hq-s0S" secondAttribute="centerY" id="I5y-dh-326"/>
+                            <constraint firstItem="oT8-Sa-63i" firstAttribute="centerX" secondItem="Xwo-hq-s0S" secondAttribute="centerX" id="JV9-O9-2pt"/>
+                            <constraint firstItem="thG-Bl-45V" firstAttribute="top" secondItem="Xwo-hq-s0S" secondAttribute="top" id="S1W-Qk-HnE"/>
+                            <constraint firstAttribute="bottom" secondItem="thG-Bl-45V" secondAttribute="bottom" id="g6r-Iq-KBK"/>
+                            <constraint firstAttribute="trailing" secondItem="thG-Bl-45V" secondAttribute="trailing" id="qkG-BT-96o"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VMl-7s-KSo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314" y="-86"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Backrgound" width="1920" height="1080"/>
+        <image name="Logo" width="1024" height="1024"/>
+    </resources>
+</document>
